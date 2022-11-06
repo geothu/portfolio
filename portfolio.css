@@ -1,0 +1,67 @@
+body{
+    
+    text-align: center;
+    margin: 0;
+    background-size: cover;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrccdJx-8G0y5qh7l1KhG2rnS76XM8NZX3bcCVHyKtEVqhAdLclDfwyC0fglMgZqYxwA&usqp=CAU) ;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrccdJx-8G0y5qh7l1KhG2rnS76XM8NZX3bcCVHyKtEVqhAdLclDfwyC0fglMgZqYxwA&usqp=CAU
+}
+.menu{
+    background-color: rgb(195, 195, 247);
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    height: 50px;
+
+}
+.links{
+    display: inline;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px red;
+
+}
+/* pseudo 
+class selector:pseudo class {property:value}
+*/
+
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.portfolio{
+    margin-top: 100px;
+    width: 500px;
+}
+#name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#welcome{
+    background: linear-gradient(to right, yellow,green);
+
+}
+.line{
+height: 4px;
+background-color: black;
+width: 60px;
+margin-left: auto;
+margin-right: auto;
+
+}
+contact_1 a{
+
+}
+
+.red{
+    color:white;
+    background-color: red;
+}
